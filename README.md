@@ -25,7 +25,11 @@ https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO
 ## Environment Setup
 ```
 virtualenv -p python3 venv
+```
+```
 source ./venv/bin/activate
+```
+```
 pip3 install -r requirements.txt
 ```
 
