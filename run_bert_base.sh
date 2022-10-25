@@ -1,0 +1,14 @@
+python3 bert.py \
+  --model_type bert \
+  --model_name_or_path bert-base-chinese \
+  --do_train \
+  --do_eval \
+  --data_dir data/ \
+  --max_seq_length 256 \
+  --per_gpu_train_batch_size 16 \
+  --learning_rate 3e-5 \
+  --num_train_epochs 4  \
+  --max_seq_length 256 \
+  --output_dir output/ \
+  --save_steps -1 \
+  --overwrite_output_dir
