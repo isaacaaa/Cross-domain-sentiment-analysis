@@ -1,20 +1,20 @@
 # A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention (WI-IAT 2022)
-This is the implementation of the paper [A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention](https://dl.acm.org/doi/abs/10.1145/3486622.3494009)
+This is the implementation of the paper [A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention](https://dl.acm.org/doi/abs/10.1145/3486622.3494009) .
 
 ## Model architecture
 ![image](https://github.com/kklab-com/cross-domain-sentiment-analysis/blob/master/transfer%20learning%20architecture.png)
 
 ## Model introduction and operation steps: 
 https://docs.google.com/presentation/d/1nE51EONlOcYwqN-rqkhXBqgWWdFWAQZOZbEq_pSxo7E/edit#slide=id.p
-
+<!-- 
 ## Weekly report:
 https://docs.google.com/presentation/d/1V1n9mJ-qUIKCv9-1Z7h1cVSJ6jPPvBPZ7hH42bu3ahQ/edit#slide=id.g9f9e4d4e94_1_0
-https://docs.google.com/presentation/d/1zPLn2K_5FxgEP8SrbvLVvBF7I1Sp7boyP5Qxi1wfNq8/edit#slide=id.gdadffaed61_0_12
+https://docs.google.com/presentation/d/1zPLn2K_5FxgEP8SrbvLVvBF7I1Sp7boyP5Qxi1wfNq8/edit#slide=id.gdadffaed61_0_12 -->
 
 ## Proposal Defense:
 https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO-2c/edit#slide=id.p
 
-## Training dataset and fine-tunes models
+## Training dataset and fine-tuned models
 [Amazon Chinese Dataset](https://drive.google.com/drive/folders/14nvjHSRDwNUqdJqlHJG_XFYwTFmoBqJO?usp=sharing)
 
 [Source models](https://drive.google.com/drive/folders/1NdE0b-Yvk1SetUHR-8Jwi488O7VxlqAi?usp=sharing)
