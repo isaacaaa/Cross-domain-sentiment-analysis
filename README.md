@@ -16,7 +16,9 @@ https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO
 
 ## Training dataset and fine-tunes models
 [Amazon Chinese Dataset] (https://drive.google.com/drive/folders/14nvjHSRDwNUqdJqlHJG_XFYwTFmoBqJO?usp=sharing)
+
 [Source models] (https://drive.google.com/drive/folders/1NdE0b-Yvk1SetUHR-8Jwi488O7VxlqAi?usp=sharing)
+
 [Target model] (https://drive.google.com/drive/folders/1OukLJ2F2TSXJo9ZGkUDTD8HB1rSsqzTj?usp=sharing)
 
 ## Environment
@@ -83,20 +85,3 @@ Run paper's model
 ```
 sh run.sh
 ```
-<!-- Example: -->
-
-```
-$ conda env create -n sentiment -f ./environment.yml
-$ conda activate sentiment
-```
-
-<!-- ### Generate requirements.txt with conda  -->
-
-```
-$ conda install pip
-$ pip list --format=freeze > requirements.txt 
-```
-
-<!-- ### Known Issues
-
-Remove the need of Cuda such that it can run on a machine without GPU. -->
