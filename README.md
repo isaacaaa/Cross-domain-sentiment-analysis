@@ -20,7 +20,7 @@ https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO
 [Target model]https://drive.google.com/drive/folders/1OukLJ2F2TSXJo9ZGkUDTD8HB1rSsqzTj?usp=sharing
 
 ## Environment
-$ ''virtualenv -p python3 venv''
+$ 、、virtualenv -p python3 venv、、
 $ ''source ./venv/bin/activate''
 $ ''pip3 install -r requirements.txt''
 
@@ -29,7 +29,7 @@ $ ''run_bert_base.sh: run bert baseline''
 $ ''run.sh: run our model''
 
 
--- final_cross_domin_uda_mtl.py: our model
+<!-- -- final_cross_domin_uda_mtl.py: our model
 
 -- run.sh: run our model
 
@@ -61,7 +61,7 @@ $ ''run.sh: run our model''
 
 --bert.py: bert baseline model
 
---run.sh: run bert baseline
+--run.sh: run bert baseline -->
 
 <!-- --cross_processor.py: data processor for bert.py
 
