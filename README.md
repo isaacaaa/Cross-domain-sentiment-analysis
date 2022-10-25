@@ -1,24 +1,33 @@
-# Cross-Domain Sentiment Analysis
+# A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention (WI-IAT 2022)
+This is the implementation of the paper [A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention](https://dl.acm.org/doi/abs/10.1145/3486622.3494009)
 
-Model introduction and operation steps: 
+## Model architecture
+![image](https://github.com/kklab-com/cross-domain-sentiment-analysis/blob/master/transfer%20learning%20architecture.png)
 
+## Model introduction and operation steps: 
 https://docs.google.com/presentation/d/1nE51EONlOcYwqN-rqkhXBqgWWdFWAQZOZbEq_pSxo7E/edit#slide=id.p
 
-Weekly report:
-
+## Weekly report:
 https://docs.google.com/presentation/d/1V1n9mJ-qUIKCv9-1Z7h1cVSJ6jPPvBPZ7hH42bu3ahQ/edit#slide=id.g9f9e4d4e94_1_0
-
 https://docs.google.com/presentation/d/1zPLn2K_5FxgEP8SrbvLVvBF7I1Sp7boyP5Qxi1wfNq8/edit#slide=id.gdadffaed61_0_12
 
-Proposal Defense:
-
+## Proposal Defense:
 https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO-2c/edit#slide=id.p
 
-Create virtual environment: virtualenv -p python3 venv
+## Training dataset and fine-tunes models
+[Amazon Chinese Dataset]https://drive.google.com/drive/folders/14nvjHSRDwNUqdJqlHJG_XFYwTFmoBqJO?usp=sharing
+[Source models]https://drive.google.com/drive/folders/1NdE0b-Yvk1SetUHR-8Jwi488O7VxlqAi?usp=sharing
+[Target model]https://drive.google.com/drive/folders/1OukLJ2F2TSXJo9ZGkUDTD8HB1rSsqzTj?usp=sharing
 
-activate virtual environment: source ./venv/bin/activate
+## Environment
+$ ''virtualenv -p python3 venv''
+$ ''source ./venv/bin/activate''
+$ ''pip3 install -r requirements.txt''
 
-install package: pip3 install -r requirements.txt
+## Usage
+$ ''run_bert_base.sh: run bert baseline''
+$ ''run.sh: run our model''
+
 
 -- final_cross_domin_uda_mtl.py: our model
 
@@ -54,11 +63,11 @@ install package: pip3 install -r requirements.txt
 
 --run.sh: run bert baseline
 
---cross_processor.py: data processor for bert.py
+<!-- --cross_processor.py: data processor for bert.py
 
---bert baseline output file will be in "output"
+--bert baseline output file will be in "output" -->
 
-![image](https://github.com/kklab-com/cross-domain-sentiment-analysis/blob/master/transfer%20learning%20architecture.png)
+
 
 
 
