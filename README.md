@@ -15,9 +15,9 @@ https://docs.google.com/presentation/d/1zPLn2K_5FxgEP8SrbvLVvBF7I1Sp7boyP5Qxi1wf
 https://docs.google.com/presentation/d/1XEMM0AV5clQdjW1wEFO3Sf1hK0PFwJ_GqcIKXqNO-2c/edit#slide=id.p
 
 ## Training dataset and fine-tunes models
-[Amazon Chinese Dataset]https://drive.google.com/drive/folders/14nvjHSRDwNUqdJqlHJG_XFYwTFmoBqJO?usp=sharing
-[Source models]https://drive.google.com/drive/folders/1NdE0b-Yvk1SetUHR-8Jwi488O7VxlqAi?usp=sharing
-[Target model]https://drive.google.com/drive/folders/1OukLJ2F2TSXJo9ZGkUDTD8HB1rSsqzTj?usp=sharing
+[Amazon Chinese Dataset] (https://drive.google.com/drive/folders/14nvjHSRDwNUqdJqlHJG_XFYwTFmoBqJO?usp=sharing)
+[Source models] (https://drive.google.com/drive/folders/1NdE0b-Yvk1SetUHR-8Jwi488O7VxlqAi?usp=sharing)
+[Target model] (https://drive.google.com/drive/folders/1OukLJ2F2TSXJo9ZGkUDTD8HB1rSsqzTj?usp=sharing)
 
 ## Environment
 '''
@@ -73,28 +73,30 @@ $ ''run.sh: run our model''
 
 
 
-## Create env with conda
+## Usage
 
-
+Run bert baseline model
 ```
-conda env create -n <env_name> -f ./environment.yml
-conda activate <env_name>
+sh run_bert_base.sh
 ```
-
-Example:
+Run paper's model
+```
+sh run.sh
+```
+<!-- Example: -->
 
 ```
 $ conda env create -n sentiment -f ./environment.yml
 $ conda activate sentiment
 ```
 
-### Generate requirements.txt with conda 
+<!-- ### Generate requirements.txt with conda  -->
 
 ```
 $ conda install pip
 $ pip list --format=freeze > requirements.txt 
 ```
 
-### Known Issues
+<!-- ### Known Issues
 
-Remove the need of Cuda such that it can run on a machine without GPU.
+Remove the need of Cuda such that it can run on a machine without GPU. -->
