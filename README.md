@@ -1,4 +1,4 @@
-# A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention (WI-IAT 2022)
+# A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention (WI-IAT 2021)
 This is the implementation of the paper [A Teacher-Student Approach to Cross-Domain Transfer Learning with Multi-level Attention](https://dl.acm.org/doi/abs/10.1145/3486622.3494009) .
 
 ## Model architecture
